@@ -1,0 +1,928 @@
+*{top:0;bottom: 0;padding: 0;margin: 0;}
+article {
+	background: url('../images/banner-black-3.jpg') no-repeat;
+	overflow: hidden;
+	background-size: 100%;
+	width:100%;
+	height:50vh;
+	box-sizing: border-box;
+}
+article h3 {
+	text-align: center;
+	line-height: 100px;
+	color:white;
+	font-size: 40px;
+	font-weight: 700;
+}
+article div {
+	text-align: center;
+}
+article div span {
+	color:white;
+	font-weight: 100;
+	padding-right: 10px;
+
+}
+
+.pc-layout-1 {
+	position: relative;
+	max-width:1250px; 
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.shop {
+	background-color: #2222;
+	padding:30px 0px;
+	width:100%;
+	height:300vh;
+}
+
+.shop .top-search {}
+.shop .top-search>h1 {text-align: center;color: #555;font-weight: 500;}
+/*--------------------#product-1----------------*/
+#product-1 {
+    height: 500vh;
+	background-color: #fff;
+	padding:30px 0;
+}
+#product-1 select {
+	display: block;
+	margin:20px 0;
+}
+#product-1 .product {background-color: #f5f5f5;width:18%;padding-bottom: 10px;display: inline-block;margin-right:20px;margin-bottom: 20px;}
+h1.title-product {
+    color: #333;
+    font-size: 14px;
+}
+
+span.unit {
+	display: inline-block;
+	font-size: 12px;
+	color: red;
+	text-decoration: dashed;
+}
+
+span.price {
+	display: inline-block;
+	font-size: 12px;
+	color: red;
+}
+
+span.icon-free {
+    padding-left: 154px;
+    display: inline-;
+}
+
+span.sold {
+    display: inline-block;
+}
+
+span.quantity-sold {
+    display: inline-block;
+}
+span.sold {
+	font-size: 12px;
+    color: rgba(0,0,0,.26);
+
+}
+
+span.quantity-sold {
+	font-size: 12px;
+    color: rgba(0,0,0,.26);
+    padding-right:60px;
+}
+
+span.quantity-evaluate {font-size: 10px;}
+
+span.start-1 {
+    display: inline-block;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+}
+
+.icon-free img {
+    display: inline-block;
+    width: 29px;
+    height: 16px;
+}
+
+span.start-2 {
+    display: inline-block;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+}
+
+span.start-3 {
+    display: inline-block;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   	width: 10px;
+    height: 10px;
+    background-color: yellow;
+}
+
+span.start-4 {
+    display: inline-block;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+}
+
+span.start-5 {
+    display: inline-block;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+}
+.product.product-1 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: orange;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-2 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-3 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-4 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-5 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-1 {
+    position: relative;
+}
+.product.product-2 {
+    position: relative;
+}
+.product.product-3 {
+    position: relative;
+}
+.product.product-4 {
+    position: relative;
+}
+.product.product-5 {
+    position: relative;
+}
+.product.product-5 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-6 {
+    position: relative;
+}
+
+.product.product-6 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-6 {
+    position: relative;
+}
+
+.product.product-7 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-7 {
+    position: relative;
+}
+
+.product.product-8 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-8 {
+    position: relative;
+}
+
+.product.product-9 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-9 {
+    position: relative;
+}
+
+.product.product-10 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-10 {
+    position: relative;
+}
+
+.product.product-11 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-11 {
+    position: relative;
+}
+
+.product.product-12 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-12 {
+    position: relative;
+}
+
+.product.product-13 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-13 {
+    position: relative;
+}
+
+.product.product-14 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-14 {
+    position: relative;
+}
+
+.product.product-15 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-15 {
+    position: relative;
+}
+
+.product.product-16 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-16 {
+    position: relative;
+}
+
+.product.product-17 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-17 {
+    position: relative;
+}
+
+.product.product-18 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-18 {
+    position: relative;
+}
+
+.product.product-19 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-19 {
+    position: relative;
+}
+
+.product.product-20 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-20 {
+    position: relative;
+}
+
+.product.product-21 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-21 {
+    position: relative;
+}
+
+.product.product-22 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-22 {
+    position: relative;
+}
+
+.product.product-23 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-23 {
+    position: relative;
+}
+
+.product.product-24 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-24 {
+    position: relative;
+}
+
+.product.product-25 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-25 {
+    position: relative;
+}
+
+.product.product-26 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-26 {
+    position: relative;
+}
+
+.product.product-27 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-27 {
+    position: relative;
+}
+
+.product.product-28 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-28 {
+    position: relative;
+}
+
+.product.product-29 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-29 {
+    position: relative;
+}
+
+.product.product-30 .top {
+    padding: 2px;
+    display: inline-block;
+    background-color: #d29f51;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 30%, 50% 41%, 0 30%);
+    width: 30px;
+    height: 103px;
+}
+.product.product-30 {
+    position: relative;
+}
+
+
+.top p {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+/*--------------------/ END #product-1----------------*/
+/*--------------------#product-2----------------*/
+#product-2 {
+height: 800vh;	
+background: #fff;
+	
+padding:0;
+}
+
+#product-2 select {
+	display: block;
+	margin: 0px;
+}
+.information-flash-sale{
+	padding:30px 0;
+	background: white;
+}
+.information-flash-sale span:nth-child(1) {
+
+    padding-right: 5px;
+    color: orange;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+i.far.fa-clock {
+	display: inline-block;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.information-flash-sale span.closed p {
+	display: inline-block;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.8);
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+span.hours {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin: 0 9px;
+}
+
+span.minute {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin: 0 0px;
+}
+
+span.seconds {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin: 0px 9px;
+}
+
+.time-21 {
+    padding: 20px 80px 20px 80px;
+    background: #ee4d2d;
+    display: inline-block;
+}
+
+.time-21 span:nth-child(1) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.time-21 span:nth-child(2) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.time-22 {
+    padding: 20px 80px 20px 80px;
+    background: #414142;
+    display: inline-block;
+}
+
+.time-22 span:nth-child(1) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.time-22 span:nth-child(2) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.time-00 {
+    padding: 20px 80px 20px 80px;
+    background: #414142;
+    display: inline-block;
+}
+
+.time-00 span:nth-child(1) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.time-00 span:nth-child(2) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.time-00-30 {
+    padding: 20px 80px 20px 80px;
+    background: #414142;
+    display: inline-block;
+}
+
+.time-00-30 span:nth-child(1) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.time-00-30 span:nth-child(2) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.product {
+	margin-bottom: 20px;
+	margin-right:20px;
+	padding-bottom: 5px;
+	background: white;
+}
+.product.product-1 {
+
+width: 29%;
+
+display: inline-block;
+}
+.product.product-1 .img {
+	width: 16%;
+}
+.product.product-2 {
+
+width: 29%;
+
+display: inline-block;
+}
+.product.product-2 .img {
+	width: 16%;
+}
+.product.product-3 {
+
+width: 29%;
+
+display: inline-block;
+}
+.product.product-3 .img {
+	width: 16%;
+}
+.product.product-4 {
+
+width: 29%;
+
+display: inline-block;
+}
+.product.product-4 .img {
+	width: 16%;
+}
+.left {
+	margin-left:500px;
+}
+.overflow {
+	padding-top: 100px;
+	overflow: hidden;
+}
+.overflow .information-product{
+	width:90%;
+	float:left;display: inline-block;
+}
+.overflow select {
+	width:10%;
+	float: left;display: inline-block;
+}
+.product.product-5 {
+
+width: 29%;
+
+display: inline-block;
+}
+.product.product-5 .img {
+	width: 16%;
+}
+.product h1 {
+	float:left!important;
+	font-size: 20px;
+}
+
+.product span.price-now, .product span.price-now>span{text-decoration: line-through;display: inline-block}
+.product span.price-sale,.product span.price-sale>span {
+	color:orange;
+	font-weight: 700;
+	font-size: 20px;
+}
+.product span.price-sale span.right-500 {
+	margin-right:500px;
+}
+.product button {
+	text-decoration: none;
+	border:none;
+	background-color:orange;
+	padding:10px;
+}
+.product button a {
+	color:white;
+}
+.product .quantity{
+	margin-left: 120px;
+	position: relative;
+}
+.product .quantity span {
+	position: absolute;
+	width:200px;
+	height: 20px;
+	border-radius: 10px;
+	background-color:#ffbda6;
+}
+.product .quantity span>p {
+	font-size: 18px;
+	color:white;
+	z-index: 2;
+}
+.product .quantity span:nth-child(2) {
+	width:100px;
+	height: 20px;
+	border-radius-left: 10px;
+	background-color:orange;
+}
+.nav-tabs>li>a {
+    color: #222222;
+}
+/*--------------------/ END  #product-2----------------*/
+
+
+/*-----------------------------#product-3*----------------------------------*/
+#product-3{
+    height: 500vh;
+	padding:20px 0 20px 10px;
+}
+#product-3 .tieu-de {
+	width:100%;
+	overflow: hidden;
+}
+#product-3 .tieu-de h2 {
+	width:70%;
+	display: inline-block;
+	float: left;
+	color:#222222;
+	font-weight: 500;
+}
+#product-3 .tieu-de p {
+	padding-top:5px;
+	width:30%;
+	float: left;
+}
+.type-product {
+	display: inline-block;
+	float:left;
+	border: 1px solid rgba(0,0,0,.05);
+	padding-left:20px;
+	box-sizing: border-box;
+	background: #fff;
+	width:25%;
+	overflow: hidden;
+}
+.type-product .title {
+	width:70%;
+	display: inline-block;
+	float: left;
+}
+.type-product .title h3{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #222;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.type-product .title p {
+	    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: .3125rem;
+    color: #757575;
+    font-size: .8125rem;
+}
+
+.type-product .image {
+	width:30%;
+	display: inline-block;
+	float: left;
+}
+.type-product .image img {
+	width:100%;
+	height: 100px;
+	background-position: center;
+}
+#product-3 .tieu-de p a{
+	text-decoration: none;
+	color:#222222;
+}
+#product-3 .tieu-de p a>i {
+	padding-right: 5px;
+	color:#222222;
+}
+.panel.panel-default {
+    margin-right:2px;
+    display: inline-block;
+    width: 24%;
+}
+#product-3 .slide-container {
+    width:100%;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    position: relative;
+}
+#product-3 .slide-container .navButton {
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.65;
+    user-select: none;
+    font-size: 18px;
+    text-align: center;
+   line-height: 30px;
+    color:#222222;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#f5f5f5;
+}
+#product-3 .slide-container  .navButton:hover {
+opacity: 1;
+}
+#product-3 .slide-container .slide-product:not(:first-child) {
+/* Hide all images except the first */
+display: none;
+}
+#product-3 .slide-container #previous {
+    position: absolute;
+    top:30px;
+
+}
+#product-3 .slide-container #next {
+position: absolute;
+top:30px;
+right: 0px;
+}
+/*----------------------------- END #product-3*----------------------------------*/
