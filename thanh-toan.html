@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Giỏ Hàng - Volta</title>
+	<!-- img title phia trang web -->
+	<link rel="shortcut icon" href="/images">
+	<!-- tac dong css -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/thanhtoan.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/shop.css">
+	
+	<!-- icon front -->
+	<script src="https://kit.fontawesome.com/fa80a5a76b.js" crossorigin="anonymous"></script>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+	<!-- script js -->
+	<script src="js/style.js"></script>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body >
+	<!-- ---------header -------------->
+	<div class="header-wrap">
+		<div class="pc-layout">
+			<div class="page-top">
+				<div class="header-top row">
+					<div class="header-top--search col-lg-4 col-md-4 col-sm-12">
+						<input type="text" placeholder="Search...">
+					</div>
+					<div class="header-top--logo col-lg-4 col-md-4 text-center col-sm-12"><img src="images/logo-header.png" alt=""></div>
+					<div class="header-top--selection col-lg-4 col-md-4 col-sm-12">
+						<ul>
+							<li><a href=""><img src="images/icon_register.png" alt="">Register</a></li>
+							<li><a href="">My 
+								<i class="fas fa-angle-down"></i></a></li>
+							<li><a href=""><span>5</span><span>items</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header-bottom row">
+					<div class="col col-lg-12 col-md-12 col-sm-12">
+						<ul>
+							<li ><a class="item" href="index.html">HOME</a></li>
+							<li ><a class="item active" href="shop.html">SHOP</a></li>
+							<li ><a class="item" href="">APPS</a></li>
+							<li ><a class="item" href="">BLOGS</a></li>
+							<li ><a class="item" href="">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!-- ---------/header ------------->
+	<article>
+		<h3 class="shop-single">SHOP</h3>
+		<div class="home"><span>HOME /</span><span>THANH TOÁN</span></div>
+	</article>
+<!-- Phan thanh toán -->
+<div class="checkout">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 trai">
+				<h3>Thông Tin Hóa Đơn</h3>
+				<p class="form-row form-row-first">
+						<label >First Name</label>
+						<input type="text" class="input-text" value="First Name">
+				</p>
+				<p class="form-row form-row-last">
+					<label >Last Name</label>
+					<input type="text" class="input-text" value="Last Name">
+				</p>
+				<div class="clear"></div>
+				<p class="form-row form-row-wide">
+					<label >Office</label>
+					<input type="text" class="input-text " value="Office">
+				</p>
+				<p class="form-row form-row-wide">
+					<label >Address 1</label>
+					<input type="text" class="input-text " value="Address 1">
+				</p>
+				<p class="form-row form-row-wide">
+					<label >Address 2</label>
+					<input type="text" class="input-text " value="Address 2">
+				</p>
+				<p class="form-row form-row-wide">
+					<label >City</label>
+					<input type="text" class="input-text " value="City">
+				</p>
+				<p class="form-row form-row-first">
+					<label >Country State</label>
+					<input type="text" class="input-text " value="Country State">
+				</p>
+				<p class="form-row form-row-last">
+					<label >Zip Code</label>
+					<input type="text" class="input-text " value="Zip Code">
+				</p>
+
+				<p class="form-row form-row-first">
+					<label >Email</label>
+					<input type="text" class="input-text " value="Email">
+				</p>
+				<p class="form-row form-row-last">
+					<label >Phone</label>
+					<input type="text" class="input-text " value="Phone">
+				</p>	
+				<div class="clear"></div>
+				<p class="form-row form-row-wide">					
+					<input type="checkbox" class="input-checkbox " value="Create Account">
+					<label class="checkbox">Create Account</label>
+				</p>
+				<div class="giaohang">
+					<h3>
+						<label >Giao Hàng Tới Địa Chỉ Khác</label>
+						<input type="checkbox" class="ship_to_different_address">
+
+					</h3>
+				</div>
+				<div class="form-row form-row-wide">
+					
+					<label>Ghi Chú</label>
+					<textarea name="order_comments" id="" cols="30" rows="10" placeholder="Ghi Chú về ship hàng"></textarea>
+				</div>
+			</div>
+			<div class="col-sm-6 phai">
+				<h3>Thông Tin Đơn Hàng</h3>
+				<div id="order_review">
+					<table class="table table-hover shop_table">
+							<thead>
+								<tr>
+									<th class="product-name">Tên Sản Phẩm</th>
+									<th class="product-total">Tổng Cộng</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="cart_item">
+									<td class="product-name">Áo sơ mi đỏ x 2</td>
+									<td class="product-total">250.000đ</td>
+								</tr>
+								<tr class="cart_item">
+									<td class="product-name">Áo sơ mi đỏ x 2</td>
+									<td class="product-total">250.000đ</td>
+								</tr>
+								<tr class="cart_item">
+									<td class="product-name">Áo sơ mi đỏ x 2</td>
+									<td class="product-total">250.000đ</td>
+								</tr>
+								<tr class="cart_item">
+									<td class="product-name">Áo sơ mi đỏ x 2</td>
+									<td class="product-total">250.000đ</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr class="sub-total">
+									<th>Tổng Phụ</th>
+									<td>400.000đ</td>
+								</tr>
+								<tr class="shipping">
+									<th>Giao Nhận</th>
+									<td>Giao Hàng COD</td>
+								</tr>
+								<tr class="order_total">
+									<th>Tổng</th>
+									<td>400.000đ</td>
+								</tr>
+
+							</tfoot>
+					</table>
+					<div id="payment" class="payment_method">
+						<ul>
+							<li>
+								<input type="radio" class="input-radio">
+								<label for="">Direct Bank Transfer</label>
+								<div class="payment_box">
+									sdadqweasddxcasdad adasdszx asdsaz xcad zxczca xczc a zxca zxcada zacxza da azcads azdcada asd as a aas z a axz adaz a adx a az a a z a dasdz aas a a aza ad adaz a a z daz a a xa z da aaz a z zca zca  zdcaza a az a az 
+								</div>
+							</li>
+							<li>
+								<input type="radio" class="input-radio">
+								<label for="">Check Payment</label>
+								<div class="payment_box">
+									sdadqweasddxcasdad adasdszx asdsaz xcad zxczca xczc a zxca zxcada zacxza da azcads azdcada asd as a aas z a axz adaz a adx a az a a z a dasdz aas a a aza ad adaz a a z daz a a xa z da aaz a z zca zca  zdcaza a az a az 
+								</div>
+							</li>
+							<li>
+								<input type="radio" class="input-radio">
+								<label for="">COD</label>
+								<div class="payment_box">
+									sdadqweasddxcasdad adasdszx asdsaz xcad zxczca xczc a zxca zxcada zacxza da azcads azdcada asd as a aas z a axz adaz a adx a az a a z a dasdz aas a a aza ad adaz a a z daz a a xa z da aaz a z zca zca  zdcaza a az a az 
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<input type="submit" id="place_order" value="Đặt Hàng">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Ket thuc phan thanh toán -->
+<!-- footer -->
+	<div class="footer">
+		<div class="pc-layout">
+			<div class="footer-logo col-md-2">
+				<img src="img/img_logo_w.png" alt="">
+			</div>
+			<div class="footer-information col-md-7">
+				<ul>
+					<li><a href="">Q&A</a></li>
+					<li><a href="">SITEMAP</a></li>
+				</ul>
+				<p>CS center : 080-600-6000(Sedan), 080-200-6000(Commercial)</p>
+				<p>COPYRIGHT ⓒ HYUNDAI MOTOR COMPANY.ALL RIGHTS RESERVED.</p>
+			</div>
+			<div class="footer-social-network col-md-3">
+				<div class="icon-1">
+
+					<i class="fab fa-facebook-f"></i><i class="fab fa-youtube"></i><i class="fab fa-twitter-square"></i><i class="fab fa-instagram-square"></i><i class="fab fa-telegram"></i>
+				</div>
+				<select name="" id="">
+					<option value="">Family Site</option>
+					<option value="">Hyndai group</option>
+					<option value="">
+						Hyndai colection
+					</option>
+					<option value="">Kids hyndai</option>
+					<option value="">Jeonbuk Hyundai Motors Football Club</option>
+					<option value="">H-ear</option>
+					<option value="">Global Business Investigation Center</option>
+					<option value="">Global Business Investigation Center</option>
+					<option value="">Global Business Investigation Center</option>
+					<option value="">Global Business Investigation Center</option>
+				</select>
+			</div>
+		</div>	
+	</div>
+	<!-- /footer -->
+
+</div>
+ </body>
+<!-- bootstrap js -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</html>

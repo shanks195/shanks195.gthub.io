@@ -1,0 +1,322 @@
+article {
+	background: url('../images/banner-black-3.jpg') no-repeat;
+	overflow: hidden;
+	background-size: 100%;
+	width:100%;
+	height:50vh;
+	box-sizing: border-box;
+}
+article h3 {
+	text-align: center;
+	line-height: 100px;
+	color:white;
+	font-size: 40px;
+	font-weight: 700;
+}
+article div {
+	text-align: center;
+}
+article div span {
+	color:white;
+	font-weight: 100;
+	padding-right: 10px;
+
+}
+
+/*phan CSS cho phÃ¡ÂºÂ§n giÃ¡Â»Â hÃƒÂ ng*/
+.shop_table thead th {
+	background: #f6f6f6;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	color:#222;
+	padding:23px;
+	border-right:1px solid #ebebeb;
+
+} 
+td.product-quantity .quantity {
+	width:100%;
+
+}
+table.shop-table {
+	border:1px solid #ebebeb;
+}
+td.product-thumbnail img {
+	width:50%;
+	border:2px solid white;
+	box-shadow: 0 0 0 1px #ebebeb;
+}
+tr.cart_item td {
+	vertical-align: middle;
+	text-align: center;
+}
+.giohangchitiet h1 {
+	font-family: cabin,sans-serif;
+	font-size: 25px;
+	line-height: 45px;
+	margin-top:50px;
+	color:#333;
+}
+.action .update_cart,.action .apply_coupon,a.checkout-button {
+	background: none;
+	border: 1px solid #ccc;
+	background: #222;
+	color:white;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.action .update_cart:hover {
+	background: #777;
+
+}
+.action input.apply_coupon {
+	color:#fff;
+	width:auto;
+	padding:0 10px;
+}
+input.couponcode {
+	padding:11px 13px;
+	position: relative;
+	right:-6px;
+	bottom:-3px;
+}
+.cpc {
+	float:right;
+}
+.cart_total h2 {
+	font-size:25px;
+	font-family: cabin,sans-serif;
+	line-height: 45px;
+	text-transform: uppercase;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	color:#333;
+
+}
+.cart_total table.table.shop_table th{
+	font-size: 15px;
+	text-transform: uppercase;
+	color:#333;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.cart_total .container .col-sm-5 {
+	padding:0px;
+}
+tr.order-total th {
+
+}
+.cart_total td {
+	color:#777;
+	width:700;
+	font-size: 15px;
+}
+ul.shipping_method {
+	list-style: none;
+	margin:0;
+}
+
+a.checkout-button i {
+	transition: 0.4s;
+	padding-left:10px;
+	opacity: 0;
+}
+a.checkout-button:hover i {
+	opacity: 1;
+	padding-left: 30px;
+
+}
+a.checkout-button:hover {
+	background:#a6a6a6;
+}
+.giohangchitiet {
+	box-sizing: border-box;
+}
+/*CSS cho phan thanh toÃƒÂ¡n*/
+
+p.form-row.form-row-first {
+	width:47%;
+	float: left;
+}
+p.form-row.form-row-last {
+	width:47%;
+	float: right;
+}
+p.form-row.form-row-wide {
+	width:100%;
+}
+.form-row label {
+	display: block;
+	text-transform: uppercase;
+	font-family: cabin,sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	clor:#333;
+	line-height: 45px;
+	margin: 0;
+}
+
+input.input-text {
+	width:100%;
+	font-size: 14px;
+	font-family: cabin,sans-serif;
+	color: #a1a1a1;
+	padding:11px 12px;
+}
+
+.checkout input.input-checkbox {
+	display: inline-block;
+	float: left;
+	margin-top: 16px;
+}
+p.form-row label.checkbox {
+	display: inline;
+	margin-left: 10px;
+	}
+	.checkout h3 {
+		text-transform: uppercase;
+		font-size: 25px;
+		color:#333;
+		margin-top:40px;
+	}
+	.checkout textarea {
+		width:100%;
+		padding:10px;
+		font-family: cabin,sans-serif;
+		font-style: italic;
+		font-size: 13px;
+		min-height: 100px;
+	}
+	div#order_review {
+		background: #f6f6f6;
+		padding:25px;
+	}
+	#order_review table.table.table-hover.shop_table {
+		background: white;
+	}
+	#order_review table thead th {
+		border-bottom:1 solid #414141;
+		background: none;
+		text-align: left;
+		border-right: none;
+	}
+	#order_review table thead th.product-name {
+		width:70%;
+	}
+	#order_review tr.cart_item td {
+		text-align: left;
+		padding-left: 24px;
+	}
+	#order_review table tfoot tr th {
+		font-size: 14px;
+		color: #333;
+		text-transform: uppercase;
+		padding-left: 20px;
+	}
+	#order_review tfoot tr.sub-total th,#order_review tfoot tr.sub-total  td{
+		padding-top: 40px;
+	}
+	#order_review tfoot tr.shipping td,#order_review tfoot tr.order_total td {
+		color: black;
+		font-weight: bold;
+		font-size: 15px;
+	}
+	div#payment {
+		background: white;
+		padding-top:45px;
+		margin-top: 40px;
+	}
+	div#payment ul {
+		list-style: none;
+		padding-left: 10px;
+	}
+	#payment ul li label {
+		color:#414141;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 600;
+		padding-left: 11px;
+		padding-bottom: 10px;
+	}
+	.payment_box {
+		padding-left: 27px;
+		padding-bottom: 24px;
+	}
+	#place_order {
+		background: none;
+	border: 1px solid #ccc;
+	background: #222;
+	color:white;
+	cursor: pointer;
+	transition: 0.4s;
+	width:100%;
+	display: block;
+	text-align: center;
+	padding:10px;
+
+	}
+	.container .nutslide {
+	border-bottom: 1px solid red;
+	font-size:13px;
+	color:#222;
+	text-transform:uppercase;
+	width:180px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	padding:0;
+	border-radius:0px;
+	
+}
+.container .nutslide:hover{
+	
+	background-color:skyblue;
+}
+
+input.qty {
+	width:48px;
+	height: 38px;
+	border:none;
+	background: #444;
+	font-size: 13px;
+	color:white;
+	font-family: cabin,sans-serif;
+	text-align: center;
+	line-height: 38px;
+	
+}
+input.qty::-webkit-inner-spin-button, input.qty::-webkit-outer-spin-button {
+	-webkit-appearance:none;
+	opacity: 0;
+}
+input.minus, input.plus {
+	width:38px;
+	height: 38px;
+	background: white;
+	box-shadow: none;
+	border:1px solid #d0d0d0;
+
+}
+input.minus {
+	position: relative;
+	right:-5px;
+	bottom:-3px;
+}
+.nutslide,input.update_cart,.action .apply_coupon  {
+	font-size: 13px;
+	color:#111111;
+	text-transform: uppercase;
+	width:180px;
+	padding-bottom:13px;
+	border-bottom: 1px solid red;	
+	line-height: 50px;
+	text-align: center;
+	font-family: "open sans", sans-serif;
+}
+ul.shipping_method li label {
+	font-weight: normal;
+	font-size: 16px;
+	padding-left: 10px;
+}
+/*Het phan css cho phan thanh toÃƒÂ¡n*/
+/*HÃ¡ÂºÂ¿t phÃ¡ÂºÂ§n CSS cho phÃ¡ÂºÂ§n giÃ¡Â»Â hÃƒÂ ng*/

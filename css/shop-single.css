@@ -1,0 +1,213 @@
+/*shop-single.html*/
+*{top:0;bottom: 0;padding: 0;margin: 0;}
+article {
+	background: url('../images/banner-black-3.jpg') no-repeat;
+	overflow: hidden;
+	background-size: 100%;
+	width:100%;
+	height:50vh;
+	box-sizing: border-box;
+}
+article h3 {
+	text-align: center;
+	line-height: 100px;
+	color:white;
+	font-size: 40px;
+	font-weight: 700;
+}
+article div {
+	text-align: center;
+}
+article div span {
+	color:white;
+	font-weight: 100;
+	padding-right: 10px;
+
+}
+
+/*section*/
+section {
+	padding-top:20px;
+	background-color:#f5f5f5;
+	width:100%;
+	height:400vh;
+}
+section .pc-layout ul{list-style: none;}
+section .pc-layout ul li  {display: inline-block;padding-right:5px;}
+section .pc-layout ul li a {color: rgba(0,0,0,.8);text-decoration: none;}
+section .pc-layout ul li a span {padding-left:5px;text-decoration: none;}
+
+section .pc-layout .section-1{ background-color:#ffffff;padding-top:20px; }
+section .pc-layout .section-1 .slide-product {} 
+section .pc-layout .section-1 .information-product {}
+
+section .pc-layout .sanpham {margin-top: 100px;background-color:#fff;}
+section .pc-layout .sanpham a.bigimage {
+	width:75%;
+	display: block;
+	float: left;
+	margin-right: 3%;
+}
+section .pc-layout .sanpham a.bigimage img {
+	width:100%;
+}
+section .pc-layout .sanpham .thumbnails {
+	width:20%;
+	float: left;
+}
+section .pc-layout .sanpham .thumbnails a{
+	display: block;
+	width:80%;
+	margin-bottom: 12px;
+}
+section .pc-layout .sanpham .thumbnails a img {
+	width:90%;
+	border:3px solid white;
+	box-shadow: 0 0 1px rgba(0,0,0,0);
+	transition: 0.4s;
+}
+section .pc-layout .sanpham .thumbnails a img:hover {
+	box-shadow: 0 0 2px black;
+
+}
+section .pc-layout .sanpham h1.product-title {
+	font-size: 18px;
+	color:#222;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+section .pc-layout .sanpham p.price {
+	font-family: cabin,sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 26px;
+	margin-top:25px;
+}
+section .pc-layout .sanpham .description {
+	margin-top:46px;
+	font-size: 15px;
+	font-family: cabin,sans-serif;
+	color:#777;
+	line-height: 26px;
+}
+section .pc-layout .sanpham .in-stock {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: black;
+	font-family: cabin,sans-serif;
+	font-weight: 900;
+	margin-top: 12px;
+}
+section .pc-layout .sanpham form.cart {
+	margin-top:30px;
+}
+section .pc-layout .sanpham .quantity {
+	width:50%;
+	float: left;
+}
+section .pc-layout .sanpham .variation {
+	width:50%;
+	float: left;
+}
+section .pc-layout .sanpham span.label {
+	font-weight: 900;
+	color:#222;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-right: 20px;
+
+}
+section .pc-layout .sanpham button.button.btn.btn-primary  {
+	margin-top: 40px;
+	background: none;
+	border:none;
+	background: #222;
+	width:100%;
+	border-radius: 0px;
+	height: 50px;
+	font-family: cabin,sans-serif;
+	text-transform: uppercase;
+	
+}
+section .pc-layout .sanpham button.button.btn.btn-primary a{
+	color:white;
+	text-decoration: none;
+}
+section .pc-layout .sanpham button.button.btn.btn-primary:hover {
+	background: #171717;
+}
+section .pc-layout .sanpham input.qty {
+	width:48px;
+	height: 38px;
+	border:none;
+	background: #444;
+	font-size: 13px;
+	color:white;
+	font-family: cabin,sans-serif;
+	text-align: center;
+	line-height: 38px;
+	
+}
+section .pc-layout .sanpham input.qty::-webkit-inner-spin-button, input.qty::-webkit-outer-spin-button {
+	-webkit-appearance:none;
+	opacity: 0;
+}
+section .pc-layout .sanpham input.minus, section .pc-layout .sanpham input.plus {
+	width:38px;
+	height: 38px;
+	background: white;
+	box-shadow: none;
+	border:1px solid #d0d0d0;
+
+}
+section .pc-layout .sanpham input.minus {
+	position: relative;
+	right:-5px;
+	bottom:-3px;
+}
+section .pc-layout .sanpham input.plus {
+	position: relative;
+	right:4px;
+	bottom:-3px;
+}
+section .pc-layout .sanpham i.fa.fa-long-arrow-right {
+    color: white;
+}
+.store	{padding:30px 20px 30px 20px;background-color:#fff;margin-top:20px;}
+.store .information-store {}
+.store .information-store ul {
+		position:relative;
+}
+.store .information-store ul .image{display:inline-block;padding-right: 20px;top:0;}
+.store .information-store ul .image img {border-radius: 50%;}
+.store .information-store ul ul {display: inline-block;padding-right: 150px;}
+.store .information-store ul ul .name-store p{display: inline-block;}
+.store .information-store ul ul .online{display: block;}
+.store .information-store ul ul .online p{}
+.store .information-store  ul ul button{padding:10px;}
+.store .information-store  ul ul button a{text-decoration: none;}
+
+.store .information-store  ul ul button:nth-child(odd) {background-color: rgba(208,1,27,.08);
+    border:1px solid #d0011b;
+    margin-right:10px;
+    
+}
+.store .information-store  ul ul button:nth-child(odd) a{color: #d0011b;}
+
+.store .information-store  ul ul button:nth-child(even) {border:1px solid #555;;}
+.store .information-store  ul ul button:nth-child(even) a{color: #555;}
+
+.store .information-store 	ul {display: inline-block;padding-right:50px;}
+.store .information-store 	ul li {}
+.store .information-store 	ul li div span:nth-child(even){color:#d0011b;}
+.store .information-store 	ul li div span:nth-child(odd){color:rgba(0,0,0,.4);}
+.store .information-store 	ul li:nth-child(even){display: block;}
+.store .information-store 	ul li:nth-child(odd){}
+.information-product {
+	padding:30px;
+	margin-top:20px;
+	background-color:#fff;
+}
+/*het shop.single.html*/
+/*shop.html*/
