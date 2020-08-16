@@ -1,0 +1,240 @@
+section {
+	height:200vh;
+}
+.pc-layout-2 {
+	max-width:900px;
+	margin:0 auto;
+
+}
+section #showContainer {
+	position: relative;
+	width:900px;
+	box-sizing: border-box;
+/* Main wrapper for all images */
+	padding: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+section .w3-button{
+/* Make buttons look nice */ 
+	cursor: pointer;
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding:2px 0px;
+
+	overflow: hidden;
+	text-align: center;
+	color: #a6a6a6;
+	font-weight: bold;
+	font-size: 18px;
+	border:1px solid #a6a6a6;
+	opacity: 0.65;
+	user-select: none;
+}
+section .w3-button:hover {
+		opacity: 1;
+}
+section .caption {
+	float: right;
+}
+section .mySlides:not(:first-child) {
+/* Hide all images except the first */
+	display: none;
+}
+
+.mySlides ul.nav.nav-tabs {
+	border:none;
+    
+}
+
+section .nav-tabs>li.active{
+	
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 49% 100%, 34% 75%, 0% 75%);
+	
+}
+.nav-tabs>li>a{
+   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 49% 100%, 34% 75%, 0% 75%);
+    display: block;
+    background-color: rgba(216,216,216,.4);
+    font-weight: 500;
+    color: #3a3a3a;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 35px;
+    position: relative;
+    
+    cursor: pointer;
+    }
+.nav-tabs>li>a:hover {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 49% 100%, 34% 75%, 0% 75%);
+	background-color: #0f6a9d!important;
+	color:white;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: white!important;
+    cursor: default;
+   background-color: #0f6a9d!important;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+section .nav-tabs>li {
+    margin-bottom: 0;
+}
+.mySlides div {
+	
+    display: inline-block;
+    float: left;
+}
+#showContainer .slideshow  {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	float:right;
+}
+#showContainer button.read {
+	background-color: #0f6a9d;
+	margin-top:20px;
+	margin-left: 300px;
+	border:none;
+	padding:10px 30px 10px 30px;
+}
+#showContainer button a {
+	
+	color:white;
+	text-decoration: none;
+	
+}
+#showContainer .mySlides .tab-content .carousel-inner {
+	width:100%;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal {
+	width:30%;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .image-ereal {
+	width:100%;
+	position: relative;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .image-ereal .image {
+	width: 100%;
+
+	position: absolute;
+	top:0;
+
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .image-ereal .image img {
+	width: 100%;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .image-ereal .special {
+	
+	width: 60px;
+    height: 60px;
+    z-index: 3;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    font-weight: 600;
+    text-align: center;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .image-ereal .special>span {
+	font-size: 10px;
+	display: block;  
+    transform: rotate(45deg);
+    transform-origin: top;
+    background: #ef7733;
+    color: #fff;
+    width:120px;
+    padding-top: 20px;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .image-ereal .number-of-image {
+	position: absolute;
+	box-sizing: border-box;
+	text-align: center;
+	width:268px;
+	height:40px;
+	line-height: 30px;
+	font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    top: 111px;
+    z-index: 4;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal h3 {
+	
+	color: #1e1e1e;
+    font-size: 24px;
+   
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .address{
+    color: #a6a6a6;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .direction
+{
+	color:#6f6f6f;
+	border-right:1px solid #6f6f6f;
+	padding:0px 10px;
+}
+.mySlides .tab-content .carousel-inner .information-ereal .direction i{
+	padding-right:10px;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .sell {
+	
+	color:orange;
+	background-color: #ffebe0;
+	padding:5px;
+	margin-right: 120px;
+
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal{
+	background-color: white;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal a {
+	text-decoration: none;
+}
+a.left.carousel-control {
+    background: none;
+}
+
+a.right.carousel-control {
+    background: none;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .price {
+	padding:0 10px 0 10px;
+	color:red;
+	border-right:1px solid red;
+	font-weight: 500;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .acreage {
+	color:red;
+	padding:0 120px 0 10px;
+}#showContainer .mySlides .tab-content .carousel-inner .information-ereal .save i {
+    color: #e1e1e1;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .price-m2 {
+	color:#a6a6a6;
+}
+    
+    #showContainer .mySlides .tab-content .carousel-inner .information-ereal .bed {
+    color:#6f6f6f;
+	border-right:1px solid #6f6f6f;
+	padding:0px 10px;
+    }
+    .mySlides .tab-content .carousel-inner .information-ereal .bed i {
+    	color:#6f6f6f;
+
+    }
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .bath {
+	color:#6f6f6f;
+	padding:0px 10px;
+}
+#showContainer .mySlides .tab-content .carousel-inner .information-ereal .bath i{
+	color:#6f6f6f;
+	padding-right: 5px;
+
+}
